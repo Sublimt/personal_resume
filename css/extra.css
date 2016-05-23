@@ -1,0 +1,54 @@
+.description
+{
+    margin-bottom: 5px;
+}
+
+.graduation-date, .graduation-duration
+{
+    white-space: nowrap;
+}
+
+#footer .quote
+{
+    max-width: 527px;
+    margin: auto;
+}
+
+@media (min-width:992px){.profile-col{margin-top:90px}}
+
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background: #09afad;
+  border: 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #fff;
+  height: 40px;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+textarea{
+    height: 100px!important;
+}
+
+.form-send
+{
+    width: 200px;
+    background: #031634;
+    color: #fff;
+}
